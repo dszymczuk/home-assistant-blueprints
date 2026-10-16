@@ -1,5 +1,5 @@
 blueprint:
-  name: "Sync Remote Temperature to TRV-ZBT"
+  name: "Sync Remote Temperature to TRV-ZBT dszymczuk"
   author: Sonoff
   description: >
     Synchronizes an external temperature reading with a SONOFF TRV-ZBT
@@ -10,7 +10,6 @@ blueprint:
     selected temperature source is never changed by this blueprint. Temperature values in Celsius,
     Fahrenheit, or Kelvin are automatically converted to Celsius.
   domain: automation
-
   input:
     target_device:
       name: TRV-ZBT device
